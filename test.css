@@ -1,0 +1,613 @@
+
+body {
+  background: rgb(109, 109, 127);
+}
+
+img {
+  margin-top: 20px;
+}
+
+.container {
+  width: 300px;
+  height: 540px;
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  font-family: monospace;
+  background: rgb(24, 26, 145);
+  color: yellow;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+#response {
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+  border-radius: 10px;
+  bottom: 0px;
+  left: 0px;
+  background: rgb(24, 26, 145);
+}
+
+h2 {
+  margin: 35px 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+}
+
+#btn {
+  font-size: 20px;
+  text-align: center;
+  background-color: blue;
+  color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#btn:hover {
+  animation-name: color;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+@keyframes color {
+  100% {
+    background-color: yellow;
+    color: blue;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.map{
+  width: 600px;
+  height: 540px;
+  border-radius: 5px;
+  background-color: rgb(24, 26, 145);
+  display: inline-block;
+}
+
+#albania {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(307px 384px,303px 390px,304px 393px,306px 395px,303px 402px,
+    304px 407px,303px 412px,311px 421px,313px 416px,315px 415px,317px 411px,320px
+     409px,321px 406px,316px 405px,313px 402px,315px 393px,312px 386px);
+}
+#albania:hover{
+  background: #705a1f;
+}
+#kosovo {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(310px 383px,316px 379px,316px 375px,325px 381px,325px 388px,
+    319px 387px,316px 392px,314px 387px);
+}
+#kosovo:hover{
+  background: #705a1f;
+}
+#macedonia {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(320px 388px,316px 393px,313px 402px,317px 402px,322px 405px
+    ,326px 405px,329px 401px,336px 401px,338px 396px,336px 391px,331px 388px,325px 388px);
+}
+#macedonia:hover{
+  background: #705a1f;
+}
+#montenegro {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(302px 373px,296px 376px,295px 384px,303px 393px,305px 383px
+    ,310px 384px,312px 380px,306px 377px);
+}
+#montenegro:hover{
+  background: #705a1f;
+}
+#serbia {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(301px 341px,302px 347px,306px 349px,302px 349px,304px 354px,
+    301px 360px,306px 364px,302px 366px,306px 370px,303px 372px,312px 380px,316px 379px,316px 375px,327px 381px,326px 386px,333px 387px,334px 385px,333px 381px,335px 379px,335px 374px,333px 373px,331px 364px,336px 362px,333px 359px,334px 357px,332px 355px,330px 358px,326px 356px,322px 353px,323px 349px,317px 348px,317px 343px,312px 338px,306px 337px,303px 339px,306px 337px);
+}
+#serbia:hover{
+  background: #705a1f;
+}
+#greece {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(371px 394px,373px 398px,369px 405px,344px 405px,351px 411px,
+    344px 418px,337px 409px,334px 415px,341px 427px,337px 426px,337px 433px,350px 442px,350px 447px,342px 444px,344px 451px,337px 449px,341px 463px,341px 469px,347px 473px,354px 472px,375px 480px,361px 482px,346px 479px,347px 473px,340px 468px,337px 458px,335px 465px,332px 464px,332px 456px,327px 459px,325px 454px,327px 451px,320px 444px,329px 438px,321px 439px,312px 425px,314px 416px,322px 406px,350px 397px,368px 400px);
+}
+#greece:hover{
+  background: #705a1f;
+}
+#bulgaria {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(335px 362px,331px 365px,332px 372px,335px 375px,335px 379px,332px 389px,338px 394px,337px 400px,345px 398px,348px 396px,365px 399px,368px 398px,369px 394px,372px 390px,385px 389px,381px 381px,389px 367px,376px 360px,360px 367px,347px 368px);
+}
+#bulgaria:hover{
+  background: #705a1f;
+}
+#romania {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(334px 313px,320px 336px,313px 339px,317px 347px,322px 354px,329px 357px,334px 355px,333px 361px,344px 367px,357px 367px,376px 360px,389px 367px,391px 352px,396px 353px,397px 345px,385px 346px,383px 337px,381px 324px,369px 309px,363px 309px,356px 313px,348px 314px);
+}
+#romania:hover{
+  background: #705a1f;
+}
+#bosniaAndHerzegovina {
+  width: 800px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(295px 381px,289px 379px,273px 358px,272px 349px,277px 351px,282px 348px,304px 355px,302px 360px,306px 363px,303px 365px,306px 370px,297px 376px);
+}
+#bosniaAndHerzegovina:hover {
+  background: #705a1f;
+}
+#croatia {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(278px 333px,271px 336px,267px 345px,260px 343px,252px 344px,253px 352px,260px 347px,262px 357px,267px 360px,262px 362px,264px 365px,268px 363px,276px 375px,288px 379px,273px 359px,272px 348px,277px 350px,282px 348px,302px 354px,305px 348px,301px 346px,302px 342px,298px 340px,289px 340px);
+}
+#croatia:hover {
+  background: #705a1f;
+}
+#hungary {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(286px 314px,280px 317px,278px 329px,286px 339px,295px 341px,306px 336px,314px 338px,321px 334px,335px 312px,330px 307px,317px 306px,312px 311px,299px 313px,297px 316px);
+}
+#hungary:hover {
+  background: #705a1f;
+}
+#slovakia {
+  width: 800px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(298px 294px,293px 302px,285px 303px,284px 310px,289px 314px,299px 315px,299px 312px,311px 310px,316px 305px,330px 307px,332px 300px,327px 299px,327px 297px,316px 294px,313px 297px,309px 297px,306px 293px,303px 294px);
+}
+#slovakia:hover{
+  background: #705a1f;
+}
+#austria{
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(220px 314px,223px 317px,227px 314px,233px 317px,242px 314px,249px 317px,249px 309px,259px 303px,266px 305px,268px 300px,282px 304px,286px 313px,284px 316px,279px 315px,278px 326px,271px 330px,266px 329px,263px 332px,245px 328px,242px 322px,228px 324px,217px 318px,218px 312px);
+}
+#austria:hover{
+  background: #705a1f;
+}
+#slovenia{
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(254px 331px,250px 335px,255px 340px,253px 342px,253px 344px,260px 342px,267px 344px,271px 335px,279px 332px,276px 328px,271px 331px,267px 329px,263px 332px);
+}
+#slovenia:hover{
+  background: #705a1f;
+}
+#italy{
+  width: 600px;;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(241px 321px,229px 326px,225px 323px,225px 326px,221px 327px,216px 330px,213px 326px,208px 335px,205px 331px,206px 325px,200px 331px,191px 333px,192px 338px,187px 342px,189px 346px,187px 352px,193px 358px,196px 358px,203px 353px,216px 360px,219px 371px,224px 382px,242px 400px,259px 409px,262px 415px,266px 416px,270px 425px,270px 432px,263px 439px,254px 439px,251px 442px,232px 437px,231px 444px,242px 453px,249px 455px,257px 461px,260px 453px,257px 448px,262px 441px,265px 444px,270px 443px,276px 432px,280px 432px,280px 425px,274px 420px,279px 409px,289px 414px,291px 419px,294px 415px,287px 405px,270px 398px,272px 391px,262px 391px,251px 381px,249px 368px,239px 361px,237px 352px,241px 350px,238px 344px,252px 340px,249px 334px,252px 332px,242px 329px);
+}
+#italy:hover {
+  background: #705a1f;
+}
+#france{
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(166px 257px,160px 256px,156px 261px,156px 266px,148px 268px,141px 271px,141px 274px,130px 271px,132px 266px,125px 264px,125px 279px,113px 277px,110px 271px,108px 273px,101px 270px,97px 275px,99px 277px,96px 282px,106px 286px,106px 290px,114px 293px,113px 304px,118px 310px,116px 314px,121px 326px,119px 327px,116px 319px,104px 343px,106px 350px,122px 357px,128px 358px,135px 364px,145px 367px,145px 359px,159px 355px,172px 364px,180px 366px,191px 359px,191px 355px,187px 352px,188px 345px,186px 342px,191px 337px,191px 325px,182px 327px,189px 315px,196px 315px,194px 311px,200px 309px,200px 302px,208px 293px,197px 290px,194px 285px,186px 283px,183px 279px,184px 275px,179px 277px,177px 276px,177px 271px,173px 271px,169px 264px);
+}
+#france:hover{
+  background: #705a1f;
+}
+#switzerland{
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(200px 310px,195px 313px,196px 315px,190px 317px,185px 322px,183px 326px,186px 326px,189px 321px,191px 324px,192px 330px,201px 331px,205px 325px,208px 333px,213px 326px,216px 329px,220px 329px,224px 325px,223px 322px,218px 321px,216px 320px,218px 313px,215px 310px,209px 310px,207px 311px);
+}
+#switzerland:hover{
+  background: #705a1f;
+}
+#germany{
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(234px 220px,227px 218px,223px 225px,228px 227px,223px 234px,
+    217px 235px,215px 229px,210px 233px,208px 244px,204px 246px,207px 249px,203px
+     254px,197px 254px,194px 267px,194px 279px,197px 281px,194px 284px,197px 289px,
+     208px 293px,208px 295px,201px 304px,200px 309px,206px 311px,209px 309px,213px
+      311px,216px 309px,223px 316px,226px 313px,233px 316px,243px 313px,248px 315px,
+      248px 308px,258px 303px,247px 292px,247px 285px,244px 282px,249px 278px,263px
+       274px,264px 272px,269px 273px,267px 266px,269px 257px,268px 252px,262px 248px,
+       266px 244px,266px 239px,261px 236px,259px 231px,254px 226px,248px 230px,245px
+        232px,238px 229px,242px 225px,235px 225px);
+}
+#germany:hover{
+  background: #705a1f;
+}
+#czechRepublic{
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(265px 274px,245px 283px,247px 286px,247px 292px,258px 303px,
+    265px 304px,266px 299px,283px 305px,292px 302px,297px 293px,297px 290px,292px
+     287px,293px 284px,286px 282px,283px 284px,278px 281px,279px 278px,271px 274px);
+}
+#czechRepublic:hover {
+  background: #705a1f;
+}
+#belgium{
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(175px 254px,166px 256px,166px 262px,174px 270px,178px 271px,
+    178px 274px,180px 276px,184px 274px,184px 279px,188px 281px,190px 275px,196px
+     272px,194px 267px,191px 266px,192px 261px,183px 256px,179px 258px);
+}
+#belgium:hover {
+  background: #705a1f;
+}
+#netherlands {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(209px 237px,206px 233px,198px 233px,196px 237px,198px 242px,
+    195px 246px,191px 245px,193px 240px,191px 236px,183px 247px,184px 251px,176px
+     252px,190px 260px,193px 261px,191px 266px,194px 267px,195px 261px,198px 252px,
+     203px 253px,207px 249px,204px 245px,208px 243px,207px 241px,208px 238px);
+}
+#netherlands:hover {
+  background: #705a1f;
+}
+#luxemburg {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(193px 275px,190px 278px,190px 282px,192px 285px,196px 281px,194px 279px);
+}
+#luxemburg:hover {
+  background: #705a1f;
+}
+#spain {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(146px 368px,131px 365px,126px 358px,118px 358px,105px 349px,
+    103px 344px,93px 339px,87px 337px,78px 336px,68px 327px,62px 328px,52px 320px,
+    45px 321px,44px 323px,40px 320px,34px 322px,36px 333px,32px 337px,41px 337px,
+    40px 343px,54px 347px,56px 352px,49px 356px,42px 370px,36px 371px,38px 382px,
+    34px 383px,33px 389px,35px 392px,28px 395px,25px 402px,35px 410px,33px 414px,
+    38px 423px,55px 419px,68px 425px,76px 425px,85px 419px,93px 420px,97px 411px,
+    107px 408px,103px 396px,109px 391px,119px 383px,120px 381px,133px 378px,146px 374px);
+}
+#spain:hover {
+  background: #705a1f;
+}
+#portugal {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(40px 338px,33px 339px,31px 346px,19px 366px,17px 367px,11px
+     373px,17px 376px,14px 379px,17px 381px,13px 387px,13px 395px,9px 398px,16px
+      399px,19px 402px,25px 401px,28px 394px,35px 391px,33px 389px,34px 382px,37px
+       380px,37px 376px,37px 370px,43px 369px,47px 355px,56px 352px,52px 347px,39px 344px);
+}
+#portugal:hover {
+  background: #705a1f;
+}
+#poland {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(295px 222px,269px 232px,269px 237px,266px 238px,267px 243px,
+    263px 247px,268px 252px,270px 257px,268px 264px,270px 271px,281px 277px,280px
+     280px,283px 281px,286px 280px,294px 283px,293px 285px,297px 287px,299px 291px,
+     303px 292px,305px 290px,309px 295px,313px 295px,314px 292px,326px 294px,327px
+      296px,336px 299px,332px 294px,339px 281px,345px 277px,339px 262px,339px 257px,
+      336px 255px,341px 248px,337px 230px,331px 228px,312px 229px,304px 230px,301px 229px);
+}
+#poland:hover {
+  background: #705a1f;
+}
+#ukraine {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(342px 266px,345px 278px,344px 282px,340px 283px,333px 294px,337px 301px,333px 300px,331px 307px,337px 312px,
+    355px 314px,368px 307px,367px 305px,372px 301px,391px 308px,393px 316px,399px 321px,399px 327px,391px 329px,388px 339px,385px 340px,386px
+    344px,398px 342px,405px 333px,402px 327px,407px 329px,411px 319px,414px 323px,423px 322px,417px 326px,428px 329px,433px 326px,426px 336px,438px
+    338px,438px 345px,444px 346px,462px 334px,462px 329px,448px 331px,436px 324px,450px 318px,452px 314px,461px 313px,463px 307px,472px 303px,470px 295px,
+    477px 293px,476px 289px,483px 288px,480px 280px,482px 272px,478px 269px,472px 271px,468px 267px,463px 268px,455px 264px,451px 269px,445px 267px,441px 267px,
+    435px 262px,432px 258px,427px 258px,430px 253px,421px 244px,415px 245px,410px 251px,399px 254px,398px 263px,392px 261px,377px 262px,372px 264px,370px 259px,
+    362px 261px,353px 259px);
+}
+#ukraine:hover {
+  background: #705a1f;
+}
+#belarus {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(370px 204px,365px 211px,361px 211px,363px 218px,357px 220px,357px 224px,353px 227px,356px
+    230px,346px 235px,340px 237px,341px 249px,337px 256px,341px 259px,340px 266px,355px 258px,364px 260px,372px 259px,374px
+    264px,392px 260px,396px 261px,397px 253px,406px 251px,402px 242px,398px 240px,402px 236px,406px 239px,409px 237px,407px
+    230px,401px 228px,396px 224px,396px 222px,393px 220px,394px 215px,391px 212px,392px 208px,384px 207px,381px 208px,379px
+    205px,375px 204px);
+}
+#belarus:hover {
+  background: #705a1f;
+}
+#lithuania {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(354px 206px,327px 203px,325px 206px,322px 205px,319px 212px,
+    321px 220px,329px 221px,333px 224px,331px 228px,337px 231px,339px 236px,346px
+    234px,355px 230px,352px 227px,357px 224px,356px 219px,361px 218px,360px
+    216px,360px 211px,355px 210px);
+}
+#lithuania:hover {
+  background: #705a1f;
+}
+#latvia {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(331px 185px,324px 187px,319px 191px,320px 196px,318px 200px,318px 207px,322px 205px,327px
+    204px,345px 204px,353px 206px,356px 210px,364px 210px,370px 204px,368px 198px,366px 198px,364px 194px,366px 191px,
+    361px 185px,354px 187px,348px 181px,342px 183px,341px 189px,342px 191px,337px 196px,333px 194px,333px 191px);
+}
+#latvia:hover {
+  background: #705a1f;
+}
+#estonia {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(365px 161px,348px 160px,334px 166px,337px 173px,336px 178px,343px 182px,349px 180px,355px
+    186px,362px 185px,364px 181px,361px 173px,357px 168px,363px 167px);
+}
+#estonia:hover {
+  background: #705a1f;
+}
+#norway {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(263px 110px,268px 102px,277px 104px,275px 97px,281px 78px,290px 66px,290px 57px,298px 53px,300px 46px,309px
+    47px,309px 38px,316px 36px,321px 42px,327px 41px,332px 44px,336px 38px,337px 28px,344px 23px,350px 29px,350px 36px,357px 29px,356px 25px,
+    354px 26px,349px 21px,358px 18px,352px 13px,340px 11px,338px 18px,336px 12px,331px 25px,329px 23px,334px 10px,331px 9px,327px 20px,323px
+    18px,323px 13px,316px 17px,324px 24px,324px 26px,316px 21px,314px 22px,317px 26px,310px 27px,310px 30px,305px 32px,304px 33px,302px 29px,
+    300px 34px,295px 34px,297px 42px,289px 40px,291px 36px,283px 42px,274px 51px,290px 47px,292px 50px,284px 53px,287px 56px,282px 59px,275px
+    67px,274px 76px,271px 75px,268px 84px,264px 89px,262px 95px,260px 94px,250px 104px,254px 108px,258px 103px,259px 106px,252px 110px,248px
+    109px,244px 103px,218px 125px,212px 156px,219px 159px,217px 161px,212px 162px,219px 177px,230px 175px,250px 160px,249px 165px,254px
+    169px,258px 156px,262px 154px,263px 148px,261px 142px,267px 138px,262px 132px,264px 127px);
+}
+#norway:hover {
+  background: #705a1f;
+}
+#sweden {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(311px 39px,329px 53px,325px 56px,331px 78px,328px 81px,323px 80px,317px 94px,320px 99px,315px
+    109px,298px 120px,292px 144px,296px 150px,302px 152px,301px 168px,288px 174px,280px 206px,274px 206px,267px 211px,
+    268px 215px,258px 214px,258px 203px,258px 198px,256px 195px,250px 171px,250px 166px,255px 168px,257px 157px,262px
+    153px,264px 147px,261px 142px,268px 137px,263px 132px,265px 128px,263px 111px,267px 109px,268px 103px,278px 104px,
+    276px 97px,283px 77px,291px 66px,292px 57px,301px 53px,302px 46px,310px 47px);
+}
+#sweden:hover {
+  background: #705a1f;
+}
+#finland {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(344px 24px,350px 29px,352px 39px,350px 43px,358px 54px,356px 66px,363px 81px,369px 104px,
+    378px 112px,378px 121px,374px 131px,361px 146px,331px 157px,331px 152px,320px 149px,318px 116px,324px 115px,337px
+    89px,342px 91px,340px 83px,332px 79px,327px 55px,329px 52px,313px 39px,316px 36px,322px 44px,328px 41px,333px 44px,337px
+    38px,338px 28px);
+}
+#finland:hover {
+  background: #705a1f;
+}
+#denmark {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(224px 208px,223px 200px,228px 189px,238px 186px,245px 180px,242px 192px,242px 198px,245px
+    198px,243px 204px,240px 202px,239px 207px,233px 211px,234px 213px,241px 209px,245px 213px,246px 209px,249px 207px,
+    253px 211px,252px 205px,255px 204px,257px 209px,252px 218px,245px 214px,244px 212px,241px 217px,235px 213px,232px
+    219px,227px 217px);
+}
+#denmark:hover {
+  background: #705a1f;
+}
+#england {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(154px 150px,140px 146px,136px 154px,131px 154px,129px 161px,127px 159px,128px 154px,124px 154px,
+    122px 159px,125px 167px,128px 171px,122px 175px,117px 176px,120px 184px,125px 182px,125px 179px,130px 177px,131px 180px,
+    121px 192px,119px 192px,116px 189px,115px 183px,107px 184px,102px 186px,100px 193px,102px 195px,106px 192px,109px 197px,
+    113px 198px,118px 194px,124px 188px,123px 192px,129px 195px,134px 192px,137px 194px,133px 198px,132px 205px,134px 207px,
+    130px 215px,121px 214px,116px 218px,120px 219px,118px 226px,108px 228px,109px 233px,113px 231px,119px 238px,125px 237px,
+    126px 240px,115px 239px,109px 240px,96px 248px,100px 252px,110px 249px,114px 253px,116px 248px,122px 248px,124px 252px,
+    142px 254px,151px 254px,158px 250px,150px 246px,165px 240px,165px 233px,158px 226px,153px 229px,155px 223px,155px 216px,
+    152px 210px,155px 210px,153px 205px,149px 201px,150px 191px,146px 182px,140px 182px,146px 179px,158px 164px,148px 160px,
+    142px 161px,145px 155px,151px 154px);
+}
+#england:hover {
+  background: #705a1f;
+}
+#ireland {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(111px 180px,102px 179px,97px 184px,97px 188px,82px 184px,82px 189px,84px 191px,79px 194px,
+    86px 199px,78px 204px,83px 206px,70px 207px,72px 218px,78px 221px,89px 221px,92px 217px,101px 221px,103px 216px,107px
+    214px,110px 199px,104px 193px,101px 195px,101px 190px);
+}
+#ireland:hover {
+  background: #705a1f;
+}
+#iceland {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(100px 8px,92px 8px,82px 11px,86px 17px,91px 19px,90px 25px,80px 21px,79px 22px,84px 27px,84px 33px,
+    77px 32px,78px 37px,85px 40px,88px 48px,99px 55px,108px 53px,113px 52px,116px 54px,124px 54px,130px 49px,134px 42px,128px
+    38px,133px 31px,128px 31px,128px 25px,123px 25px,120px 29px,116px 28px,112px 21px,106px 25px,105px 18px,101px 23px,96px
+    23px,95px 22px,101px 15px);
+}
+#iceland:hover {
+  background: #705a1f;
+}
+#moldova {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(372px 302px,368px 307px,371px 309px,383px 325px,384px 340px,389px 340px,390px 333px,391px
+    329px,398px 329px,400px 325px,391px 315px,390px 309px,382px 305px);
+}
+#moldova:hover {
+  background: #705a1f;
+}
+#russia {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(599px 205px,588px 209px,583px 204px,578px 205px,571px 202px,568px 207px,551px 216px,547px 222px,543px 232px,
+    548px 238px,544px 241px,536px 237px,534px 239px,535px 253px,539px 255px,539px 258px,536px 265px,540px 269px,542px 266px,544px 271px,
+    549px 269px,549px 266px,556px 270px,563px 273px,560px 277px,563px 284px,559px 291px,556px 287px,555px 311px,558px 312px,564px 317px,
+    569px 326px,583px 339px,579px 349px,574px 351px,566px 345px,558px 346px,554px 344px,555px 339px,542px 341px,538px 345px,532px 343px,
+    525px 341px,520px 341px,517px 344px,499px 343px,498px 346px,488px 338px,478px 336px,477px 338px,470px 333px,465px 329px,472px 327px,
+    471px 321px,477px 315px,470px 312px,470px 310px,474px 306px,476px 307px,481px 302px,480px 297px,477px 301px,472px 301px,470px 295px,
+    477px 293px,476px 289px,482px 289px,484px 285px,480px 280px,482px 271px,477px 269px,472px 270px,467px 267px,462px 267px,454px 263px,
+    451px 267px,448px 268px,444px 265px,439px 267px,432px 256px,426px 258px,429px 254px,420px 243px,414px 245px,406px 251px,402px 246px,
+    401px 243px,399px 240px,400px 237px,404px 240px,409px 237px,407px 231px,396px 225px,392px 220px,393px 215px,391px 212px,390px 208px,
+    379px 207px,370px 204px,365px 194px,361px 186px,364px 181px,368px 181px,363px 173px,363px 157px,376px 153px,361px 146px,377px 125px,
+    378px 112px,368px 103px,356px 65px,359px 53px,352px 48px,350px 42px,351px 35px,359px 26px,362px 22px,369px 25px,366px 27px,372px 32px,380px
+    29px,387px 32px,404px 41px,406px 37px,413px 42px,417px 53px,411px 63px,403px 66px,392px 66px,373px 59px,373px 61px,381px 69px,385px 68px,390px
+    75px,394px 91px,401px 91px,403px 95px,412px 94px,412px 89px,406px 87px,400px 84px,402px 78px,426px 81px,416px 71px,425px 54px,433px 55px,440px
+    60px,436px 46px,428px 42px,428px 31px,423px 29px,422px 28px,431px 25px,439px 29px,439px 34px,437px 35px,437px 40px,450px 41px,453px 37px,450px
+    32px,459px 9px,465px 1px,466px 13px,469px 8px,472px 17px,477px 0px,600px 0px);
+}
+#russia:hover {
+  background: #705a1f;
+}
+#turkey {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: rgb(155, 127, 35);
+  clip-path: polygon(388px 388px,384px 391px,379px 388px,373px 391px,372px 394px,373px 399px,369px 406px,
+    374px 407px,370px 413px,382px 404px,383px 401px,388px 401px,394px 400px,397px 396px,388px 392px);
+}
+#turkey:hover {
+  background: #705a1f;
+}
+#notEurope {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: grey;
+  clip-path: polygon(0px 447px,14px 447px,34px 425px,42px 426px,45px 439px,62px 440px,69px 447px,84px 441px,137px
+    439px,202px 446px,215px 451px,211px 472px,198px 489px,254px 515px,257px 527px,286px 542px,310px 542px,307px 521px,
+    323px 510px,343px 512px,344px 520px,373px 525px,392px 533px,412px 530px,434px 518px,468px 518px,483px 467px,479px
+    456px,487px 447px,485px 441px,552px 415px,563px 415px,568px 411px,552px 386px,556px 376px,547px 376px,546px 368px,
+    532px 359px,522px 364px,516px 351px,499px 343px,554px 340px,556px 345px,554px 340px,573px 351px,581px 350px,584px
+    341px,599px 347px,598px 541px,69px 542px,0px 541px,0px 511px);
+}
+#notTurkey{
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: grey;
+  clip-path: polygon(400px 398px,403px 403px,398px 405px,401px 407px,391px 410px,380px 408px,372px 416px,
+    371px 422px,378px 421px,380px 435px,374px 434px,374px 439px,384px 442px,387px 452px,389px 458px,405px 456px,407px
+    462px,419px 461px,422px 452px,435px 451px,444px 459px,459px 455px,463px 446px,475px 445px,479px 440px,480px 453px,
+    486px 452px,487px 441px,502px 433px,531px 427px,551px 414px,563px 416px,568px 410px,552px 388px,556px 379px,554px
+    377px,546px 376px,545px 370px,532px 361px,521px 366px,511px 375px,502px 376px,489px 382px,475px 382px,466px 378px,
+    458px 376px,439px 379px,420px 395px);
+}
+#notRussia {
+  width: 600px;
+  height: 540px;
+  position: absolute;
+  background-color: grey;
+  clip-path: polygon(600px 206px,592px 207px,588px 211px,582px 206px,574px 203px,562px 211px,548px 222px,
+    547px 232px,548px 240px,537px 238px,535px 253px,541px 256px,537px 265px,539px 269px,545px 272px,552px 267px,564px
+    274px,562px 279px,567px 279px,577px 274px,578px 264px,588px 262px,595px 258px,600px 261px,600px 291px,595px 290px,
+    593px 294px,587px 298px,594px 303px,600px 311px);
+}
